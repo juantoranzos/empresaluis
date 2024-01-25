@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Servicios</title>
+    <!-- Agrega los enlaces a Bootstrap CSS si no lo has hecho -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Agrega tu propio archivo de estilos CSS si es necesario -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+
+    <!-- Sección de Encabezado con Imagen Responsive y Título -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <!-- Logo -->
+                <a class="navbar-brand" href="#">
+                    <img src="../img/Sin título.png" alt="Logo" height="70" width="100" class="p-1">
+                </a>
+                <!-- Botón hamburguesa para dispositivos móviles -->
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <!-- Menú de navegación -->
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a class="nav-link" href="../index.html">Inicio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/acercadenosotros.html">Acerca de Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/servicios.html">Servicios</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/proyectos.html">Obras</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="../html/contacto.html">Contáctanos</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+
+    </header>
+
+    <!-- Sección de Servicios con Cards -->
+    <section class="container my-5">
+        <div class="row">
+            <!-- Card 1: Construcción -->
+            <div class="col-md-4 mb-4" id="seccionServicio">
+                <div class="card">
+                    <img src="../img/servicios/photo-1579847188804-ecba0e2ea330.avif" class="card-img-top"
+                        alt="Construcción">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Obras Civiles</h5>
+                        <hr>
+                        <p class="card-text" id="parrafoServicio">Servicio de construcción para proyectos civiles.</p>
+                        <button type="button" class="btn btn-primary" value="" onclick="verMas()" id="btnVerMas">Ver
+                            mas</button>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Card 2: Mantenimiento de Maquinarias -->
+            <div class="col-md-4 mb-4" id="seccionServicio1">
+                <div class="card">
+                    <img src="../img/servicios/pexels-kateryna-babaieva-2880871.jpg" class="card-img-top"
+                        alt="Mantenimiento de Maquinarias">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Mantenimiento de Maquinarias Industriales</h5>
+                        <hr>
+                        <p class="card-text" id="parrafoServicio1">Servicio de mantenimiento y reparación de
+                            maquinarias.</p>
+                        <button type="button" class="btn btn-primary" value="" id="btnVerMas1" onclick="verMas1()">Ver
+                            mas</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Card 3: Mantenimiento de Instalaciones -->
+            <div class="col-md-4 mb-4" id="seccionServicio2">
+                <div class="card">
+                    <img src="../img/servicios/mantenimientodeinstalaciones.jpeg" class="card-img-top"
+                        alt="Mantenimiento de Instalaciones">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Mantenimiento de Edificios</h5>
+                        <hr>
+                        <p class="card-text" id="parrafoServicio2">Servicio de mantenimiento de instalaciones civiles.
+                        </p>
+                        <button type="button" class="btn btn-primary" id="btnVerMas2" onclick="verMas2()" value="">Ver
+                            mas</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- card 4 -->
+            <div class="col-md-4 mb-4" id="seccionServicio3">
+                <div class="card">
+                    <img src="../img/servicios/bomba1.jpg" class="card-img-top" alt="Mantenimiento de Instalaciones">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Construccion de Lineas contra Incendios</h5>
+                        <hr>
+                        <p class="card-text" id="parrafoServicio3">Servicio de sistemas de Extinción de incendios
+
+                        </p>
+                        <button type="button" class="btn btn-primary" value="" id="btnVerMas3" onclick="verMas3()">Ver
+                            mas</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 5 -->
+            <div class="col-md-4 mb-4" id="seccionServicio4">
+                <div class="card">
+                    <img src="../img/servicios/maquina.jpg" class="card-img-top" alt="Mantenimiento de Instalaciones">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Alquiler de Vehiculos y Maquinarias</h5>
+                        <hr>
+                        <p class="card-text" id="parrafoServicio4">Servicio de alquiler de vehiculos y maquinarias.
+                        </p>
+                        <button type="button" class="btn btn-primary" id="btnVerMas4" onclick="verMas4()" value="">Ver
+                            mas</button>
+                    </div>
+                </div>
+            </div>
+            <!-- card 6 -->
+            <div class="col-md-4 mb-4" id="seccionServicio5">
+                <div class="card">
+                    <img src="../img/servicios/estructurasmetalicas.jpeg" class="card-img-top" alt="Mantenimiento de Instalaciones">
+                    <div class="card-body text-center">
+                        <h5 class="card-title text-center">Estructuras Metalicas</h5>
+                        <hr>
+
+                        <p class="card-text" id="parrafoServicio5">Servicio de mantenimiento de instalaciones civiles.</p>
+                        <button type="button" class="btn btn-primary" value="" id="btnVerMas5" onclick="verMas5()">Ver mas</button>
+                    </div>
+                </div>
+            </div>
+
+
+
+        </div>
+    </section>
+
+    <!-- Agrega aquí cualquier otra sección que necesites -->
+    <footer class="bg-dark text-center text-light p-2">Todos los derechos reservados &copy;
+        CONSTRUCCIONES CIVILES </footer>
+    <!-- Agrega los enlaces a Bootstrap JS y Popper.js al final del cuerpo del documento -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../js/app.js"></script>
+
+</body>
+
+</html>
