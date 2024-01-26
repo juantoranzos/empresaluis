@@ -9,7 +9,7 @@ function verMas() {
 
     if (!contenidoExpandido) {
         // Mostrar más contenido
-        parrafoServicio.innerHTML += ` <br> <p class="text-justify p-2"> Ofrecemos servicios integrales de construcción para proyectos civiles, desde la planificación hasta la entrega final. Nos especializamos en estructuras sólidas, utilizando tecnologías avanzadas y materiales de alta calidad. Contamos con un experimentado equipo comprometido con la excelencia y altos estándares de calidad y seguridad. Además de la construcción, brindamos servicios de gestión de proyectos eficientes. Colaboramos estrechamente con nuestros clientes para crear espacios funcionales que reflejen su visión y estilo. Al elegirnos, obtienes confiabilidad y compromiso para convertir tus ideas en soluciones de construcción sólidas y sostenibles. </p>`;
+        parrafoServicio.innerHTML += ` <br> <p class="text-justify p-2"> Brindamos servicios de construcción para proyectos civiles, destacándonos en estructuras sólidas con tecnologías avanzadas. Nuestro equipo experimentado asegura calidad y eficiencia en la gestión de proyectos, colaborando estrechamente con los clientes para crear espacios sostenibles. </p>`;
         btnVerMas.innerHTML = 'Ocultar';
         btnVerMas.className = 'btn btn-danger';
     } else {
@@ -53,12 +53,12 @@ function verMas2() {
 
     if (!contenidoExpandido2) {
         // Mostrar más contenido
-        parrafoServicio2.innerHTML += ` <br> <p class="text-justify p-2"> Ofrecemos servicios integrales de construcción para proyectos civiles, desde la planificación hasta la entrega final. Nos especializamos en estructuras sólidas, utilizando tecnologías avanzadas y materiales de alta calidad. Contamos con un experimentado equipo comprometido con la excelencia y altos estándares de calidad y seguridad. Además de la construcción, brindamos servicios de gestión de proyectos eficientes. Colaboramos estrechamente con nuestros clientes para crear espacios funcionales que reflejen su visión y estilo. Al elegirnos, obtienes confiabilidad y compromiso para convertir tus ideas en soluciones de construcción sólidas y sostenibles. </p>`;
+        parrafoServicio2.innerHTML += ` <br> <p class="text-justify p-2"> El Mantenimiento de Edificios asegura la funcionalidad, seguridad y estética de las estructuras. Incluye inspecciones, reparaciones y gestión de sistemas esenciales para prolongar la vida útil y garantizar entornos seguros y eficientes. Profesionales especializados realizan tareas preventivas y correctivas para mantener la sostenibilidad y el bienestar a largo plazo. </p>`;
         btnVerMas2.innerHTML = 'Ocultar';
         btnVerMas2.className = 'btn btn-danger';
     } else {
         // Restaurar el contenido original
-        parrafoServicio2.innerHTML = 'Servicio de construcción para proyectos civiles.';
+        parrafoServicio2.innerHTML = 'Servicio de mantenimiento de instalaciones civiles.';
         btnVerMas2.innerHTML = 'Ver mas';
         btnVerMas2.className = 'btn btn-primary';
     }
@@ -75,12 +75,12 @@ function verMas3() {
 
     if (!contenidoExpandido3) {
         // Mostrar más contenido
-        parrafoServicio3.innerHTML += ` <br> <p class="text-justify p-2"> Ofrecemos servicios integrales de construcción para proyectos civiles, desde la planificación hasta la entrega final. Nos especializamos en estructuras sólidas, utilizando tecnologías avanzadas y materiales de alta calidad. Contamos con un experimentado equipo comprometido con la excelencia y altos estándares de calidad y seguridad. Además de la construcción, brindamos servicios de gestión de proyectos eficientes. Colaboramos estrechamente con nuestros clientes para crear espacios funcionales que reflejen su visión y estilo. Al elegirnos, obtienes confiabilidad y compromiso para convertir tus ideas en soluciones de construcción sólidas y sostenibles. </p>`;
+        parrafoServicio3.innerHTML += ` <br> <p class="text-justify p-2"> El servicio de Construcción de Líneas Contra Incendios se enfoca en instalar sistemas especializados para la rápida respuesta y control de incendios. Profesionales diseñan e implementan infraestructuras clave, como tuberías y bombas, para salvaguardar vidas y propiedades, cumpliendo con normativas de seguridad. </p>`;
         btnVerMas3.innerHTML = 'Ocultar';
         btnVerMas3.className = 'btn btn-danger';
     } else {
         // Restaurar el contenido original
-        parrafoServicio3.innerHTML = 'Servicio de sistemas de Extinción de incendios';
+        parrafoServicio3.innerHTML = 'Servicio de construccion de lineas contra Incendios';
         btnVerMas3.innerHTML = 'Ver mas';
         btnVerMas3.className = 'btn btn-primary';
     }
@@ -97,7 +97,7 @@ function verMas4() {
 
     if (!contenidoExpandido4) {
         // Mostrar más contenido
-        parrafoServicio4.innerHTML += ` <br> <p class="text-justify p-2"> Ofrecemos servicios integrales de construcción para proyectos civiles, desde la planificación hasta la entrega final. Nos especializamos en estructuras sólidas, utilizando tecnologías avanzadas y materiales de alta calidad. Contamos con un experimentado equipo comprometido con la excelencia y altos estándares de calidad y seguridad. Además de la construcción, brindamos servicios de gestión de proyectos eficientes. Colaboramos estrechamente con nuestros clientes para crear espacios funcionales que reflejen su visión y estilo. Al elegirnos, obtienes confiabilidad y compromiso para convertir tus ideas en soluciones de construcción sólidas y sostenibles. </p>`;
+        parrafoServicio4.innerHTML += ` <br> <p class="text-justify p-2"> El servicio de Alquiler de Maquinarias y Vehículos ofrece flexibilidad para acceder temporalmente a equipos necesarios sin la carga de la propiedad a largo plazo. Ideal para proyectos puntuales, proporciona eficiencia y ahorro de costos. </p>`;
         btnVerMas4.innerHTML = 'Ocultar';
         btnVerMas4.className = 'btn btn-danger';
     } else {
