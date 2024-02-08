@@ -1,0 +1,15 @@
+.navbar {
+    background-color: #001f3f; /* Azul marino */
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #ffffff !important; /* Letras blancas */
+}
+
+.footer {
+    background-color: #001f3f; /* Azul marino */
+    color: #ffffff; /* Letras blancas */
+}
+#titulo{
+    color: #001f3f;
+}
