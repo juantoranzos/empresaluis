@@ -17,6 +17,29 @@
     <link rel="stylesheet" href="../css/estilos.css">
 
     <title>Contacto</title>
+    <style>
+        @keyframes animacion {
+            0% {
+                transform: translateX(-100%);
+            }
+            50% {
+                transform: translateX(0);
+            }
+            100% {
+                transform: translateX(0);
+            }
+        }
+        
+        #contactorapido {
+            animation: animacion 0.5s ease-out forwards;
+            color: #001f3f;
+            font-family: 'Arial', sans-serif;
+            font-size: 35px;
+            text-align: center;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    letter-spacing: 1px;
+        }
+    </style>
 </head>
 
 <body>
@@ -57,7 +80,7 @@
 
     <main class="container">
         <section>
-            <h3 class="p-3 text-center">¡Contacto rápido!</h3>
+            <h3 class="p-3 text-center ellita" id="contactorapido">¡Contacto rápido!</h3>
             <p class="p-2 text-justify">Contacta fácilmente con un Asesor de CONSTRUCCIONES CIVILES a través de este
                 formulario. ¡Te responderemos lo antes posible!
                 No dudes en consultarnos también, si no encuentras el servicio que buscas o aun si no sabes exactamente
