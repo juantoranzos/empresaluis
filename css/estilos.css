@@ -27,6 +27,9 @@
 #empresas{
     color: #001f3f;
 }
+#form{
+    background-color:#ECECEC ;
+}
 .navbar-toggler {
     background-color: transparent; /* Fondo transparente */
     border: none; /* Quita el borde */
