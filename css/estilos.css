@@ -46,6 +46,7 @@
 }
 body{
     background-color: #ECECEC;
+    min-height: 100dvh;
 }
 /* mapa */
 .map-container {
